@@ -1,4 +1,43 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family: arial;
+    color: white;
+}
 
+h1{
+    color:grey;
+    font-family:verdana;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+/* for highlighting the values in the result */
+span.highlight {
+    background-color: yellow;
+}
+
+
+/* Center elements and give them some breathing room */
+div.row {
+    margin-bottom: 1.5em;
+    padding-left: 80px;
+}
+
+label.prompt {
+    display: inline-block;
+    width: 110px;
+}
+
+button {
+    padding: 5px;
+}
 
